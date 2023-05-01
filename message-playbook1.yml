@@ -1,0 +1,5 @@
+- name: This is my first playbook
+  hosts: linux7
+  tasks:
+   - name: Ping my Hosts
+     ping:
