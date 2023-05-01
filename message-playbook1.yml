@@ -1,5 +1,6 @@
-- name: This is my first playbook
-  hosts: linux7
+- name: Hello World Sample
+  hosts: all
   tasks:
-   - name: Ping my Hosts
-     ping:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
