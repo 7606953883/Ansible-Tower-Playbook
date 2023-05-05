@@ -1,0 +1,8 @@
+---
+  - name: httpd is there
+    hosts: linux7
+    tasks:
+      - name: httpd is unstall
+        yum:
+          name: httpd
+          state: absent
