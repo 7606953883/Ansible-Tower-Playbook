@@ -1,4 +1,5 @@
 - name: Hello World Sample
+  hosts: linux7
   tasks:
     - name: Hello Message
       debug:
